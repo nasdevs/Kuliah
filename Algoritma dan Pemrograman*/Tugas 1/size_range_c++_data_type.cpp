@@ -24,7 +24,7 @@ int main() {
    cout << "\tUkuran : " << sizeof(short int) << endl;
    cout << "\tJangkauan : " << SHRT_MIN << " - " << SHRT_MAX << endl;
    cout << "----------------------------------------" << endl;
-   cout << "usigned int" << endl;
+   cout << "unsigned int" << endl;
    cout << "\tUkuran : " << sizeof(unsigned int) << endl;
    cout << "\tJangkauan : " << 0 << " - " << UINT_MAX << endl;
    cout << "----------------------------------------" << endl;
@@ -32,7 +32,7 @@ int main() {
    cout << "\tUkuran : " << sizeof(long) << endl;
    cout << "\tJangkauan : " << LONG_MIN << " - " << LONG_MAX << endl;
    cout << "----------------------------------------" << endl;
-   cout << "usingned long int" << endl;
+   cout << "unsigned long int" << endl;
    cout << "\tUkuran : "  << sizeof(unsigned long int) << endl;
    cout << "\tJangkauan : " << 0 << " - " << ULONG_MAX << endl;
    cout << "----------------------------------------" << endl;
