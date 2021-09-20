@@ -28,7 +28,7 @@ int main () {
 
     // Soal C
     cout << "--------------------------------------------------------" << endl;
-    cout << "C. Pemuda itu tinggi maupun tampan" << endl;
+    cout << "C. Pemuda itu tidak tinggi maupun tampan" << endl;
     hasil = !p && !q;
     cout << "\t!p && !q \t= " << hasil << endl;
 
