@@ -12,7 +12,7 @@ int main() {
    cout << "\tUkuran : " << sizeof(char) << endl;
    cout << "\tJangkauan : " << CHAR_MIN << " - " << CHAR_MAX << endl;
    cout << "----------------------------------------" << endl;
-   cout << "unsgined char" << endl;
+   cout << "unsigned char" << endl;
    cout << "\tUkuran : " << sizeof(char) << endl;
    cout << "\tJangkauan : " << 0 << " - " << UCHAR_MAX << endl;
    cout << "----------------------------------------" << endl;
