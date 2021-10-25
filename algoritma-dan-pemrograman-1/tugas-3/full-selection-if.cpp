@@ -6,7 +6,7 @@ using namespace std;
 void kriteriaPenilaian() {
     cout << "-------------------Kriterian Penilaian------------------" << endl;
     cout << "Kehadiran        : 5%" << endl;
-    cout << "Tugus + Quiz     : 65%" << endl;
+    cout << "Tugas + Quiz     : 65%" << endl;
     cout << "UTS              : 15%" << endl;
     cout << "UAS / Presentasi : 15%" << endl;
 }
