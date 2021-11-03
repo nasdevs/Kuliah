@@ -1,5 +1,5 @@
 #include <iostream>
-#include <stdio.h>
+#include <stdlib.h>
 using namespace std;
 
 int main () {
@@ -7,7 +7,7 @@ int main () {
     string jenisBil;
     int batas;
     do {
-        system("cls"); // dipakai untuk membersihkan terminal tiap perulangan, jan lupa pake #include <stdio.h>
+        system("cls"); // dipakai untuk membersihkan terminal tiap perulangan, jan lupa pake header <stdlib.h>
         int total = 0, mulai = 0;
         cout << "=================\n";
         cout << "Jenis : \n1. ganjil\n2. genap\nMasukkan jenis : "; cin >> jenisBil;
