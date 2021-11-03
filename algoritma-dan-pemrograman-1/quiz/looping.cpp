@@ -4,9 +4,9 @@ using namespace std;
 int main() {
     string jenisBil;
     int batas;
-    int total = 0;
     char ulang;
     do {
+        int total = 0;
         cout << "=================" << endl;
         cout << "Masukkan jenis : "; cin >> jenisBil;
         if (jenisBil == "ganjil") {
