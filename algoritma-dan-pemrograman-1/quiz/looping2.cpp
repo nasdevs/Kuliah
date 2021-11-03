@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
-
+// versi agak pendek tapi ribet v:
 int main () {
     char ulang;
     string jenisBil;
