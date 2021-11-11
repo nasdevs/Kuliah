@@ -1,31 +1,14 @@
-#include <iostream>
-#include <stdlib.h>
+#include<iostream>
 using namespace std;
-// versi agak pendek tapi ribet v:
-int main () {
-    char ulang;
-    string jenisBil;
-    int batas;
-    do {
-        system("cls"); // dipakai untuk membersihkan terminal tiap perulangan, jan lupa pake header <stdlib.h>
-        int total = 0, mulai = 0;
-        cout << "=================\n";
-        cout << "Jenis : \n1. ganjil\n2. genap\nMasukkan jenis : "; cin >> jenisBil;
-        if (jenisBil == "1" || jenisBil == "2" || jenisBil == "ganjil" || jenisBil == "genap") {
-            if (jenisBil == "1" || jenisBil == "ganjil") {mulai = 1;}
-            else {mulai = 2;}
-            cout << "Masukkan batas : "; cin >> batas;
-            for (int i = mulai; i <= batas; i+=2) {
-                cout << i << " ";
-                total += i;
-            }
-            cout << "\nTotal : " << total;
-        }
-        else {
-            cout << "\nkesalahan dalam penginputan.";
-        }
-        cout << "\nUlang program [y/n] : "; cin >> ulang;
-    }
-    while(ulang == 'Y' || ulang == 'y');
-    return 0;
+
+int main() {
+	int jenisBil, batas, total = 0;
+	cout << "\n1. Ganjil\n2. Genap\nMasukkan jenis [1/2] : "; cin >> jenisBil;
+	if (jenisBil != 1 && jenisBil != 2) {cout << "Antum salah nginput"; return 0;}
+	cout << "Masukkan batas : "; cin >> batas;
+	for (int i = jenisBil; i <= batas; i+=2) {
+		cout << i << " ";
+		total += i;
+	}
+	cout << "\nTotal : " << total;
 }
