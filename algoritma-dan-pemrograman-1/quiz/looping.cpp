@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h>
 using namespace std;
 
 int main() {
@@ -6,6 +7,7 @@ int main() {
     int batas;
     char ulang;
     do {
+        system("cls"); // dipakai untuk membersihkan terminal tiap perulangan, jan lupa pake header <stdlib.h>
         int total = 0;
         cout << "=================" << endl;
         cout << "Masukkan jenis : "; cin >> jenisBil;
