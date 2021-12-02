@@ -34,12 +34,12 @@ float kelilingPersegi(float sisi) {
 }
 
 void menuPersegi(float &luas, float &keliling) {
-    system("clear");
-    float sisi;
-    cout << "Bangun Datar Persegi\n\n";
-    cout << "Masukkan ukuran sisi : "; cin >> sisi;
-    luas = luasPersegi(sisi);
-    keliling = kelilingPersegi(sisi);
+	system("clear");
+	float sisi;
+	cout << "Bangun Datar Persegi\n\n";
+	cout << "Masukkan ukuran sisi : "; cin >> sisi;
+	luas = luasPersegi(sisi);
+	keliling = kelilingPersegi(sisi);
 }
 //end persegi 
 
