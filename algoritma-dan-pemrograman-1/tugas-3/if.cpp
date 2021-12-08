@@ -13,10 +13,10 @@ int main() {
         cout << endl;
         if (cekDataMahasiswa == 'Y' || cekDataMahasiswa == 'y') {
             cout << "Nama        : Nasrullah" << endl;
-            cout << "Nim         : 13020210134" << endl;
+            cout << "Nim         : 130xxxxxxxx" << endl;
             cout << "Tahun masuk : 2021" << endl;
             cout << "Domisili    : Makassar" << endl;
-            cout << "Nomor telp. : 082122215109" << endl;
+            cout << "Nomor telp. : 0821xxxxxxxx" << endl;
         }
     }
     
