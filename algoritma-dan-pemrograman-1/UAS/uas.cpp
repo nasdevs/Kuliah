@@ -47,7 +47,7 @@ int finalTest() {
 	return nilaiFinal;
 }
 
-void tampilHasil(int tugas, int mid, int final, int hasil, int index) {
+void tampilHasil(int tugas, int mid, int final, int hasil, char index) {
 	cout << "Nilai Rata-Rata Tugas = " << tugas << endl;
 	cout << "Nilai Mid Test        = " << mid << endl;
 	cout << "Nilai Final Test      = " << final << endl;
@@ -73,8 +73,8 @@ int main() {
 			case 2: mid = midTest(); break;
 			case 3: final = finalTest(); break;
 			case 4: 
+				system("cls");
 				if (tugas == 0 || mid == 0 || final == 0) {
-					system("cls");
 					cout << "Nilai belum lengkap...";
 					getch();
 					break;
